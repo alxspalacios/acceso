@@ -1,0 +1,85 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url(../img/bosque.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+
+div{
+    height: 420px;
+    width: 320px;
+    background-color: rgba(79, 143, 228, 0.7);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+}
+
+div > .contenedor{
+    width:  100px;
+    height: 100px;
+    background: rgb(65, 194, 155);
+    border-radius: 15px;
+    top: 100px;
+    position: absolute;
+}
+
+.contenedor > img{
+    width: 100%;
+}
+
+h2{
+    margin: 0%;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 40%;
+    color:rgb(47, 10, 214);
+}
+
+label{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    color:rgb(47, 10, 214);
+}
+
+form{
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+input{
+    width: 80%;
+
+}
+
+input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom: 3px solid white;
+    background:transparent;
+    height: 25px;
+    font-size: 20px;
+    outline: none;
+}
+
+input[type="submit"]{
+    margin-top: 10%;
+    background-color: rgb(47, 10, 214);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
